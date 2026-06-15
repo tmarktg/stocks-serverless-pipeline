@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored — never commit it.
+
+aws_region      = "us-east-1"
+project_name    = "stocks-serverless"
+table_name      = "stock-movers"
+massive_api_key = "YOUR_MASSIVE_API_KEY_HERE"

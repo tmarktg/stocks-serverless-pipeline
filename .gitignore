@@ -1,0 +1,22 @@
+# Secrets — never commit these
+.env
+*.tfvars
+!terraform.tfvars.example
+
+# Terraform state and generated files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+tfplan
+terraform/modules/lambda/dist/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
