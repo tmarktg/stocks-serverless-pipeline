@@ -1,6 +1,6 @@
 # Stocks Serverless Pipeline
 
-A fully automated AWS serverless pipeline that tracks daily top movers across a tech stock watchlist and displays history on a public dashboard.
+A fully automated AWS serverless pipeline that tracks daily top movers across a tech stock watchlist and displays results on a public dashboard.
 
 ## Architecture
 
