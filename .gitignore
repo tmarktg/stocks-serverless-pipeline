@@ -20,3 +20,11 @@ venv/
 
 # macOS
 .DS_Store
+
+# Claude Code
+.claude/
+
+# Interview brief
+Project.pdf
+
+scripts/
