@@ -14,10 +14,7 @@ Lambda: ingestion          ──► Secrets Manager (Massive API key)
    DynamoDB (stock-movers)
         │
         ▼
-Lambda: retrieval  ◄── API Gateway (GET /movers)
-                              │
-                              ▼
-                     S3 Static Website (frontend)
+Lambda: retrieval  ◄── API Gateway (GET /movers)  ◄── S3 Static Website (frontend)
 ```
 
 **Watchlist:** AAPL · MSFT · GOOGL · AMZN · TSLA · NVDA
