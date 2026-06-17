@@ -35,8 +35,8 @@ Lambda: retrieval  ◄── API Gateway (GET /movers)
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/stocks-serverless
-cd stocks-serverless
+git clone https://github.com/tmarktg/stocks-serverless-pipeline
+cd stocks-serverless-pipeline
 
 # 2. Set your API key (choose one method)
 #    Option A — tfvars file (local deploys)
